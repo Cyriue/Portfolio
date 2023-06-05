@@ -52,6 +52,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 // Code de Darkmode.js
 function addDarkmodeWidget() {
   const darkmode = new Darkmode({
+    exclude: ".copyright",
     bottom: "40px",
     right: "40px",
     label: "🌓",
